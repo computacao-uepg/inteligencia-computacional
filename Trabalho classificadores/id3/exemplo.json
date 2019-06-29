@@ -1,0 +1,18 @@
+{
+    "compra_id":"5ce97af4e01a094a33bc735e",
+    "data_compra":"2019-05-25T17:27:16.757Z",
+    "forma_pagamento":{
+        "id_fp": "873ksjrbiqe4e01a094aerb397y35e",
+        "tipo_pgto": "Cartao de Credito"
+    }
+}
+
+{
+    "id_fp": "873ksjrbiqe4e01a094aerb397y35e",
+    "tipo_pgto": "Cartao de Credito"
+}
+
+
+
+
+
