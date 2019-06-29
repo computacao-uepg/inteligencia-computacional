@@ -1,0 +1,43 @@
+Universidade Estadual de Ponta Grossa
+Departamento de Informática
+
+Engenharia de Computação
+
+ 
+O trabalho se refere ao teste de quatro diferentes classificadores sobre três base de dados da UCI data set. Um classificador de cada grupo abaixo deve ser selecionado:
+
+naive bayes, regressão logística, probit;
+
+perceptron multicamadas usando função logística, limiar ou softplus
+
+considerar oito configurações usando
+
+duas configurações arquiteturas diferentes (número de camadas intermediárias, número de nós em cada camada)
+
+duas especificações para o número de épocas
+
+dois ajustes para taxa de aprendizagem
+
+JRIP, J48 (id3, c45)
+
+SVM com Kernel Polynomial, Kernel RBF ou Pearson Kernel.
+
+
+ 
+
+Os classificadores devem ser avaliados de acordo com os escores precisão e acurácia ou acurácia balanceada. Ao menos duas bases devem ter atributos contínuos.
+
+
+ 
+
+Cada grupo deve apresentar um relatório em que mostra:
+
+A execução do aprendizado dos classificadores selecionados de acordo com a parametrização escolhida; usar validação cruzada;
+
+Descrever a função dos classificadores selecionados, sua parametrização e o que significa esta parametrização;
+
+Apresentar o resultado de cada classificador para cada base de dados;
+
+Análise estatística dos resultados usando o Teste Friedman com Post hoc;
+
+Justificar a escolha de um classificador considerando o resultado dos testes.
