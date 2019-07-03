@@ -1,0 +1,135 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes 
+Relation:     house-votesV2
+Instances:    435
+Attributes:   16
+              ï»¿ClassName
+              HandicappedInfants
+              WaterProjectCostSharing
+              AdoptionOfTheBudgetResolution
+              physicianFeeFreeze
+              ElSalvadorAid
+              ReligiousGroupsInSchools
+              AidToNicaraguanContras
+              MXmissile
+              Immigration
+              SynfuelsCorporationCutback
+              EducationSpending
+              SuperfundRightToSue
+              Crime
+              DutyFreeExports
+              ExportAdministrationActSouthAfrica
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                                 Class
+Attribute                            n      y
+                                (0.54) (0.46)
+==============================================
+ï»¿ClassName
+  republican                      143.0   27.0
+  democrat                         92.0  177.0
+  [total]                         235.0  204.0
+
+HandicappedInfants
+  n                               147.0   91.0
+  y                                88.0  113.0
+  [total]                         235.0  204.0
+
+WaterProjectCostSharing
+  y                               139.0  106.0
+  n                                96.0   98.0
+  [total]                         235.0  204.0
+
+AdoptionOfTheBudgetResolution
+  n                               141.0   32.0
+  y                                94.0  172.0
+  [total]                         235.0  204.0
+
+physicianFeeFreeze
+  y                               155.0   35.0
+  n                                80.0  169.0
+  [total]                         235.0  204.0
+
+ElSalvadorAid
+  y                               179.0   50.0
+  n                                56.0  154.0
+  [total]                         235.0  204.0
+
+ReligiousGroupsInSchools
+  y                               195.0   90.0
+  n                                40.0  114.0
+  [total]                         235.0  204.0
+
+AidToNicaraguanContras
+  n                               150.0   34.0
+  y                                85.0  170.0
+  [total]                         235.0  204.0
+
+MXmissile
+  n                               153.0   27.0
+  y                                82.0  177.0
+  [total]                         235.0  204.0
+
+Immigration
+  n                               163.0   45.0
+  y                                72.0  159.0
+  [total]                         235.0  204.0
+
+SynfuelsCorporationCutback
+  y                               127.0   98.0
+  n                               108.0  106.0
+  [total]                         235.0  204.0
+
+EducationSpending
+  y                                78.0   95.0
+  n                               157.0  109.0
+  [total]                         235.0  204.0
+
+SuperfundRightToSue
+  y                               156.0   48.0
+  n                                79.0  156.0
+  [total]                         235.0  204.0
+
+Crime
+  y                               173.0   63.0
+  n                                62.0  141.0
+  [total]                         235.0  204.0
+
+DutyFreeExports
+  y                               193.0   74.0
+  n                                42.0  130.0
+  [total]                         235.0  204.0
+
+
+
+Time taken to build model: 0.01 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         332               76.3218 %
+Incorrectly Classified Instances       103               23.6782 %
+Kappa statistic                          0.5276
+Mean absolute error                      0.2332
+Root mean squared error                  0.4652
+Relative absolute error                 46.8734 %
+Root relative squared error             93.2806 %
+Total Number of Instances              435     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.730    0.198    0.810      0.730    0.767      0.531    0.829     0.849     n
+                 0.802    0.270    0.720      0.802    0.759      0.531    0.829     0.752     y
+Weighted Avg.    0.763    0.232    0.768      0.763    0.763      0.531    0.829     0.804     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 170  63 |   a = n
+  40 162 |   b = y

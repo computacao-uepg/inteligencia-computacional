@@ -1,0 +1,329 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.Id3 
+Relation:     house-votesV2
+Instances:    435
+Attributes:   16
+              ï»¿ClassName
+              HandicappedInfants
+              WaterProjectCostSharing
+              AdoptionOfTheBudgetResolution
+              physicianFeeFreeze
+              ElSalvadorAid
+              ReligiousGroupsInSchools
+              AidToNicaraguanContras
+              MXmissile
+              Immigration
+              SynfuelsCorporationCutback
+              EducationSpending
+              SuperfundRightToSue
+              Crime
+              DutyFreeExports
+              ExportAdministrationActSouthAfrica
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Id3
+
+
+MXmissile = n
+|  SuperfundRightToSue = y
+|  |  physicianFeeFreeze = y
+|  |  |  AdoptionOfTheBudgetResolution = n
+|  |  |  |  Crime = y
+|  |  |  |  |  HandicappedInfants = n
+|  |  |  |  |  |  AidToNicaraguanContras = n
+|  |  |  |  |  |  |  ReligiousGroupsInSchools = y
+|  |  |  |  |  |  |  |  WaterProjectCostSharing = y
+|  |  |  |  |  |  |  |  |  EducationSpending = y
+|  |  |  |  |  |  |  |  |  |  SynfuelsCorporationCutback = y: n
+|  |  |  |  |  |  |  |  |  |  SynfuelsCorporationCutback = n: n
+|  |  |  |  |  |  |  |  |  EducationSpending = n
+|  |  |  |  |  |  |  |  |  |  SynfuelsCorporationCutback = y
+|  |  |  |  |  |  |  |  |  |  |  Immigration = n: n
+|  |  |  |  |  |  |  |  |  |  |  Immigration = y: n
+|  |  |  |  |  |  |  |  |  |  SynfuelsCorporationCutback = n: n
+|  |  |  |  |  |  |  |  WaterProjectCostSharing = n
+|  |  |  |  |  |  |  |  |  EducationSpending = y: n
+|  |  |  |  |  |  |  |  |  EducationSpending = n
+|  |  |  |  |  |  |  |  |  |  SynfuelsCorporationCutback = y: n
+|  |  |  |  |  |  |  |  |  |  SynfuelsCorporationCutback = n: n
+|  |  |  |  |  |  |  ReligiousGroupsInSchools = n: n
+|  |  |  |  |  |  AidToNicaraguanContras = y: n
+|  |  |  |  |  HandicappedInfants = y: n
+|  |  |  |  Crime = n
+|  |  |  |  |  AidToNicaraguanContras = n
+|  |  |  |  |  |  ReligiousGroupsInSchools = y: n
+|  |  |  |  |  |  ReligiousGroupsInSchools = n: n
+|  |  |  |  |  AidToNicaraguanContras = y: y
+|  |  |  AdoptionOfTheBudgetResolution = y
+|  |  |  |  SynfuelsCorporationCutback = y
+|  |  |  |  |  AidToNicaraguanContras = n
+|  |  |  |  |  |  Immigration = n
+|  |  |  |  |  |  |  ï»¿ClassName = republican
+|  |  |  |  |  |  |  |  WaterProjectCostSharing = y: n
+|  |  |  |  |  |  |  |  WaterProjectCostSharing = n: y
+|  |  |  |  |  |  |  ï»¿ClassName = democrat: y
+|  |  |  |  |  |  Immigration = y: n
+|  |  |  |  |  AidToNicaraguanContras = y: n
+|  |  |  |  SynfuelsCorporationCutback = n: n
+|  |  physicianFeeFreeze = n
+|  |  |  SynfuelsCorporationCutback = y: n
+|  |  |  SynfuelsCorporationCutback = n
+|  |  |  |  ï»¿ClassName = republican: y
+|  |  |  |  ï»¿ClassName = democrat
+|  |  |  |  |  WaterProjectCostSharing = y
+|  |  |  |  |  |  AidToNicaraguanContras = n
+|  |  |  |  |  |  |  Immigration = n: y
+|  |  |  |  |  |  |  Immigration = y: n
+|  |  |  |  |  |  AidToNicaraguanContras = y: n
+|  |  |  |  |  WaterProjectCostSharing = n: n
+|  SuperfundRightToSue = n
+|  |  ElSalvadorAid = y
+|  |  |  EducationSpending = y
+|  |  |  |  AdoptionOfTheBudgetResolution = n: n
+|  |  |  |  AdoptionOfTheBudgetResolution = y
+|  |  |  |  |  physicianFeeFreeze = y: n
+|  |  |  |  |  physicianFeeFreeze = n
+|  |  |  |  |  |  DutyFreeExports = y
+|  |  |  |  |  |  |  Immigration = n: n
+|  |  |  |  |  |  |  Immigration = y
+|  |  |  |  |  |  |  |  HandicappedInfants = n: n
+|  |  |  |  |  |  |  |  HandicappedInfants = y: y
+|  |  |  |  |  |  DutyFreeExports = n
+|  |  |  |  |  |  |  AidToNicaraguanContras = n
+|  |  |  |  |  |  |  |  Crime = y: n
+|  |  |  |  |  |  |  |  Crime = n: y
+|  |  |  |  |  |  |  AidToNicaraguanContras = y: y
+|  |  |  EducationSpending = n
+|  |  |  |  HandicappedInfants = n
+|  |  |  |  |  ï»¿ClassName = republican
+|  |  |  |  |  |  AdoptionOfTheBudgetResolution = n
+|  |  |  |  |  |  |  ReligiousGroupsInSchools = y
+|  |  |  |  |  |  |  |  WaterProjectCostSharing = y: n
+|  |  |  |  |  |  |  |  WaterProjectCostSharing = n: y
+|  |  |  |  |  |  |  ReligiousGroupsInSchools = n: n
+|  |  |  |  |  |  AdoptionOfTheBudgetResolution = y: n
+|  |  |  |  |  ï»¿ClassName = democrat: y
+|  |  |  |  HandicappedInfants = y
+|  |  |  |  |  Crime = y: n
+|  |  |  |  |  Crime = n
+|  |  |  |  |  |  DutyFreeExports = y: y
+|  |  |  |  |  |  DutyFreeExports = n: n
+|  |  ElSalvadorAid = n: y
+MXmissile = y
+|  DutyFreeExports = y
+|  |  ï»¿ClassName = republican
+|  |  |  AidToNicaraguanContras = n
+|  |  |  |  WaterProjectCostSharing = y: n
+|  |  |  |  WaterProjectCostSharing = n: y
+|  |  |  AidToNicaraguanContras = y
+|  |  |  |  ElSalvadorAid = y
+|  |  |  |  |  EducationSpending = y
+|  |  |  |  |  |  HandicappedInfants = n: y
+|  |  |  |  |  |  HandicappedInfants = y
+|  |  |  |  |  |  |  WaterProjectCostSharing = y
+|  |  |  |  |  |  |  |  Immigration = n: n
+|  |  |  |  |  |  |  |  Immigration = y: y
+|  |  |  |  |  |  |  WaterProjectCostSharing = n: y
+|  |  |  |  |  EducationSpending = n
+|  |  |  |  |  |  Immigration = n
+|  |  |  |  |  |  |  SuperfundRightToSue = y
+|  |  |  |  |  |  |  |  HandicappedInfants = n
+|  |  |  |  |  |  |  |  |  WaterProjectCostSharing = y: y
+|  |  |  |  |  |  |  |  |  WaterProjectCostSharing = n
+|  |  |  |  |  |  |  |  |  |  ReligiousGroupsInSchools = y: n
+|  |  |  |  |  |  |  |  |  |  ReligiousGroupsInSchools = n: y
+|  |  |  |  |  |  |  |  HandicappedInfants = y: y
+|  |  |  |  |  |  |  SuperfundRightToSue = n
+|  |  |  |  |  |  |  |  HandicappedInfants = n
+|  |  |  |  |  |  |  |  |  WaterProjectCostSharing = y: y
+|  |  |  |  |  |  |  |  |  WaterProjectCostSharing = n: n
+|  |  |  |  |  |  |  |  HandicappedInfants = y: n
+|  |  |  |  |  |  Immigration = y
+|  |  |  |  |  |  |  ReligiousGroupsInSchools = y
+|  |  |  |  |  |  |  |  WaterProjectCostSharing = y: n
+|  |  |  |  |  |  |  |  WaterProjectCostSharing = n
+|  |  |  |  |  |  |  |  |  AdoptionOfTheBudgetResolution = n: n
+|  |  |  |  |  |  |  |  |  AdoptionOfTheBudgetResolution = y: y
+|  |  |  |  |  |  |  ReligiousGroupsInSchools = n: n
+|  |  |  |  ElSalvadorAid = n
+|  |  |  |  |  HandicappedInfants = n
+|  |  |  |  |  |  AdoptionOfTheBudgetResolution = n: n
+|  |  |  |  |  |  AdoptionOfTheBudgetResolution = y: y
+|  |  |  |  |  HandicappedInfants = y: n
+|  |  ï»¿ClassName = democrat
+|  |  |  ElSalvadorAid = y
+|  |  |  |  ReligiousGroupsInSchools = y
+|  |  |  |  |  physicianFeeFreeze = y
+|  |  |  |  |  |  HandicappedInfants = n
+|  |  |  |  |  |  |  Immigration = n: y
+|  |  |  |  |  |  |  Immigration = y: n
+|  |  |  |  |  |  HandicappedInfants = y: y
+|  |  |  |  |  physicianFeeFreeze = n
+|  |  |  |  |  |  SuperfundRightToSue = y: y
+|  |  |  |  |  |  SuperfundRightToSue = n
+|  |  |  |  |  |  |  Immigration = n
+|  |  |  |  |  |  |  |  SynfuelsCorporationCutback = y: n
+|  |  |  |  |  |  |  |  SynfuelsCorporationCutback = n: n
+|  |  |  |  |  |  |  Immigration = y: n
+|  |  |  |  ReligiousGroupsInSchools = n: y
+|  |  |  ElSalvadorAid = n
+|  |  |  |  SynfuelsCorporationCutback = y
+|  |  |  |  |  AidToNicaraguanContras = n: n
+|  |  |  |  |  AidToNicaraguanContras = y
+|  |  |  |  |  |  SuperfundRightToSue = y
+|  |  |  |  |  |  |  HandicappedInfants = n: y
+|  |  |  |  |  |  |  HandicappedInfants = y: n
+|  |  |  |  |  |  SuperfundRightToSue = n
+|  |  |  |  |  |  |  HandicappedInfants = n
+|  |  |  |  |  |  |  |  WaterProjectCostSharing = y
+|  |  |  |  |  |  |  |  |  AdoptionOfTheBudgetResolution = n: n
+|  |  |  |  |  |  |  |  |  AdoptionOfTheBudgetResolution = y
+|  |  |  |  |  |  |  |  |  |  Immigration = n: n
+|  |  |  |  |  |  |  |  |  |  Immigration = y: y
+|  |  |  |  |  |  |  |  WaterProjectCostSharing = n
+|  |  |  |  |  |  |  |  |  ReligiousGroupsInSchools = y
+|  |  |  |  |  |  |  |  |  |  EducationSpending = y: n
+|  |  |  |  |  |  |  |  |  |  EducationSpending = n: n
+|  |  |  |  |  |  |  |  |  ReligiousGroupsInSchools = n: n
+|  |  |  |  |  |  |  HandicappedInfants = y
+|  |  |  |  |  |  |  |  physicianFeeFreeze = y: n
+|  |  |  |  |  |  |  |  physicianFeeFreeze = n
+|  |  |  |  |  |  |  |  |  ReligiousGroupsInSchools = y: y
+|  |  |  |  |  |  |  |  |  ReligiousGroupsInSchools = n
+|  |  |  |  |  |  |  |  |  |  WaterProjectCostSharing = y: y
+|  |  |  |  |  |  |  |  |  |  WaterProjectCostSharing = n
+|  |  |  |  |  |  |  |  |  |  |  EducationSpending = y: n
+|  |  |  |  |  |  |  |  |  |  |  EducationSpending = n: y
+|  |  |  |  SynfuelsCorporationCutback = n
+|  |  |  |  |  HandicappedInfants = n: y
+|  |  |  |  |  HandicappedInfants = y
+|  |  |  |  |  |  Crime = y: y
+|  |  |  |  |  |  Crime = n
+|  |  |  |  |  |  |  WaterProjectCostSharing = y: n
+|  |  |  |  |  |  |  WaterProjectCostSharing = n
+|  |  |  |  |  |  |  |  EducationSpending = y: y
+|  |  |  |  |  |  |  |  EducationSpending = n: n
+|  DutyFreeExports = n
+|  |  ï»¿ClassName = republican: n
+|  |  ï»¿ClassName = democrat
+|  |  |  HandicappedInfants = n
+|  |  |  |  ReligiousGroupsInSchools = y
+|  |  |  |  |  EducationSpending = y
+|  |  |  |  |  |  SynfuelsCorporationCutback = y: y
+|  |  |  |  |  |  SynfuelsCorporationCutback = n
+|  |  |  |  |  |  |  Crime = y: y
+|  |  |  |  |  |  |  Crime = n
+|  |  |  |  |  |  |  |  WaterProjectCostSharing = y
+|  |  |  |  |  |  |  |  |  SuperfundRightToSue = y: y
+|  |  |  |  |  |  |  |  |  SuperfundRightToSue = n: n
+|  |  |  |  |  |  |  |  WaterProjectCostSharing = n: y
+|  |  |  |  |  EducationSpending = n
+|  |  |  |  |  |  ElSalvadorAid = y: n
+|  |  |  |  |  |  ElSalvadorAid = n
+|  |  |  |  |  |  |  Immigration = n: y
+|  |  |  |  |  |  |  Immigration = y
+|  |  |  |  |  |  |  |  SynfuelsCorporationCutback = y
+|  |  |  |  |  |  |  |  |  WaterProjectCostSharing = y
+|  |  |  |  |  |  |  |  |  |  SuperfundRightToSue = y: y
+|  |  |  |  |  |  |  |  |  |  SuperfundRightToSue = n: n
+|  |  |  |  |  |  |  |  |  WaterProjectCostSharing = n: n
+|  |  |  |  |  |  |  |  SynfuelsCorporationCutback = n: y
+|  |  |  |  ReligiousGroupsInSchools = n
+|  |  |  |  |  EducationSpending = y: y
+|  |  |  |  |  EducationSpending = n
+|  |  |  |  |  |  SynfuelsCorporationCutback = y
+|  |  |  |  |  |  |  WaterProjectCostSharing = y: y
+|  |  |  |  |  |  |  WaterProjectCostSharing = n
+|  |  |  |  |  |  |  |  Crime = y: y
+|  |  |  |  |  |  |  |  Crime = n: n
+|  |  |  |  |  |  SynfuelsCorporationCutback = n: y
+|  |  |  HandicappedInfants = y
+|  |  |  |  AdoptionOfTheBudgetResolution = n: y
+|  |  |  |  AdoptionOfTheBudgetResolution = y
+|  |  |  |  |  SynfuelsCorporationCutback = y
+|  |  |  |  |  |  Crime = y
+|  |  |  |  |  |  |  SuperfundRightToSue = y: n
+|  |  |  |  |  |  |  SuperfundRightToSue = n
+|  |  |  |  |  |  |  |  ReligiousGroupsInSchools = y
+|  |  |  |  |  |  |  |  |  WaterProjectCostSharing = y: y
+|  |  |  |  |  |  |  |  |  WaterProjectCostSharing = n: n
+|  |  |  |  |  |  |  |  ReligiousGroupsInSchools = n
+|  |  |  |  |  |  |  |  |  WaterProjectCostSharing = y
+|  |  |  |  |  |  |  |  |  |  EducationSpending = y: n
+|  |  |  |  |  |  |  |  |  |  EducationSpending = n: y
+|  |  |  |  |  |  |  |  |  WaterProjectCostSharing = n: y
+|  |  |  |  |  |  Crime = n
+|  |  |  |  |  |  |  SuperfundRightToSue = y: y
+|  |  |  |  |  |  |  SuperfundRightToSue = n
+|  |  |  |  |  |  |  |  Immigration = n
+|  |  |  |  |  |  |  |  |  ElSalvadorAid = y: y
+|  |  |  |  |  |  |  |  |  ElSalvadorAid = n: n
+|  |  |  |  |  |  |  |  Immigration = y
+|  |  |  |  |  |  |  |  |  ReligiousGroupsInSchools = y
+|  |  |  |  |  |  |  |  |  |  ElSalvadorAid = y: n
+|  |  |  |  |  |  |  |  |  |  ElSalvadorAid = n
+|  |  |  |  |  |  |  |  |  |  |  WaterProjectCostSharing = y: y
+|  |  |  |  |  |  |  |  |  |  |  WaterProjectCostSharing = n: n
+|  |  |  |  |  |  |  |  |  ReligiousGroupsInSchools = n
+|  |  |  |  |  |  |  |  |  |  ElSalvadorAid = y: y
+|  |  |  |  |  |  |  |  |  |  ElSalvadorAid = n
+|  |  |  |  |  |  |  |  |  |  |  AidToNicaraguanContras = n: y
+|  |  |  |  |  |  |  |  |  |  |  AidToNicaraguanContras = y
+|  |  |  |  |  |  |  |  |  |  |  |  EducationSpending = y
+|  |  |  |  |  |  |  |  |  |  |  |  |  WaterProjectCostSharing = y: n
+|  |  |  |  |  |  |  |  |  |  |  |  |  WaterProjectCostSharing = n: y
+|  |  |  |  |  |  |  |  |  |  |  |  EducationSpending = n
+|  |  |  |  |  |  |  |  |  |  |  |  |  WaterProjectCostSharing = y: y
+|  |  |  |  |  |  |  |  |  |  |  |  |  WaterProjectCostSharing = n: y
+|  |  |  |  |  SynfuelsCorporationCutback = n
+|  |  |  |  |  |  SuperfundRightToSue = y
+|  |  |  |  |  |  |  WaterProjectCostSharing = y
+|  |  |  |  |  |  |  |  physicianFeeFreeze = y: y
+|  |  |  |  |  |  |  |  physicianFeeFreeze = n
+|  |  |  |  |  |  |  |  |  EducationSpending = y: n
+|  |  |  |  |  |  |  |  |  EducationSpending = n: y
+|  |  |  |  |  |  |  WaterProjectCostSharing = n: n
+|  |  |  |  |  |  SuperfundRightToSue = n
+|  |  |  |  |  |  |  ReligiousGroupsInSchools = y: y
+|  |  |  |  |  |  |  ReligiousGroupsInSchools = n
+|  |  |  |  |  |  |  |  Crime = y: y
+|  |  |  |  |  |  |  |  Crime = n
+|  |  |  |  |  |  |  |  |  AidToNicaraguanContras = n: y
+|  |  |  |  |  |  |  |  |  AidToNicaraguanContras = y
+|  |  |  |  |  |  |  |  |  |  WaterProjectCostSharing = y
+|  |  |  |  |  |  |  |  |  |  |  EducationSpending = y: y
+|  |  |  |  |  |  |  |  |  |  |  EducationSpending = n: y
+|  |  |  |  |  |  |  |  |  |  WaterProjectCostSharing = n
+|  |  |  |  |  |  |  |  |  |  |  EducationSpending = y: y
+|  |  |  |  |  |  |  |  |  |  |  EducationSpending = n: y
+
+Time taken to build model: 0.01 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         297               68.2759 %
+Incorrectly Classified Instances       138               31.7241 %
+Kappa statistic                          0.3644
+Mean absolute error                      0.3511
+Root mean squared error                  0.553 
+Relative absolute error                 70.5689 %
+Root relative squared error            110.8783 %
+Total Number of Instances              435     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.682    0.317    0.713      0.682    0.697      0.365    0.644     0.630     n
+                 0.683    0.318    0.651      0.683    0.667      0.365    0.644     0.573     y
+Weighted Avg.    0.683    0.317    0.684      0.683    0.683      0.365    0.644     0.604     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 159  74 |   a = n
+  64 138 |   b = y
+
