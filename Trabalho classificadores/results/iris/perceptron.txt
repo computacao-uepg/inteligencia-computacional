@@ -1,0 +1,93 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a
+Relation:     iris
+Instances:    149
+Attributes:   5
+              5.1
+              3.5
+              1.4
+              0.2
+              Iris-setosa
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -3.9683488435434513
+    Node 3    -2.4091595065514273
+    Node 4    -4.631270917172985
+    Node 5    8.499235878864607
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    5.127037600680807
+    Node 3    -8.322821163835604
+    Node 4    -2.931190139381317
+    Node 5    -9.755190269513715
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -5.767834969692313
+    Node 3    6.982302647275588
+    Node 4    5.676553949514021
+    Node 5    -4.643535834630485
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -6.243189940140226
+    Attrib 5.1    -2.0950935270662434
+    Attrib 3.5    -3.1205213766792936
+    Attrib 1.4    10.18636211239724
+    Attrib 0.2    7.169484435902402
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -3.7895222358470204
+    Attrib 5.1    -1.2245617228022414
+    Attrib 3.5    -1.7766169951395125
+    Attrib 1.4    6.214072806169091
+    Attrib 0.2    4.20844295017705
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -3.2603689146663837
+    Attrib 5.1    -0.8687805523378722
+    Attrib 3.5    3.2544603824367058
+    Attrib 1.4    -4.149516607531623
+    Attrib 0.2    -4.155656129192115
+Class Iris-setosa
+    Input
+    Node 0
+Class Iris-versicolor
+    Input
+    Node 1
+Class Iris-virginica
+    Input
+    Node 2
+
+
+Time taken to build model: 0.19 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         144               96.6443 %
+Incorrectly Classified Instances         5                3.3557 %
+Kappa statistic                          0.9497
+Mean absolute error                      0.034 
+Root mean squared error                  0.1325
+Relative absolute error                  7.654  %
+Root relative squared error             28.1064 %
+Total Number of Instances              149     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Iris-setosa
+                 0.920    0.010    0.979      0.920    0.948      0.925    0.996     0.993     Iris-versicolor
+                 0.980    0.040    0.925      0.980    0.951      0.927    0.996     0.992     Iris-virginica
+Weighted Avg.    0.966    0.017    0.968      0.966    0.966      0.950    0.997     0.995     
+
+=== Confusion Matrix ===
+
+  a  b  c   <-- classified as
+ 49  0  0 |  a = Iris-setosa
+  0 46  4 |  b = Iris-versicolor
+  0  1 49 |  c = Iris-virginica

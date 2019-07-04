@@ -1,0 +1,255 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.Id3 
+Relation:     iris-weka.filters.unsupervised.attribute.NumericToNominal-Rfirst-last
+Instances:    149
+Attributes:   5
+              5.1
+              3.5
+              1.4
+              0.2
+              Iris-setosa
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Id3
+
+
+1.4 = 1: Iris-setosa
+1.4 = 1.1: Iris-setosa
+1.4 = 1.2: Iris-setosa
+1.4 = 1.3: Iris-setosa
+1.4 = 1.4: Iris-setosa
+1.4 = 1.5: Iris-setosa
+1.4 = 1.6: Iris-setosa
+1.4 = 1.7: Iris-setosa
+1.4 = 1.9: Iris-setosa
+1.4 = 3: Iris-versicolor
+1.4 = 3.3: Iris-versicolor
+1.4 = 3.5: Iris-versicolor
+1.4 = 3.6: Iris-versicolor
+1.4 = 3.7: Iris-versicolor
+1.4 = 3.8: Iris-versicolor
+1.4 = 3.9: Iris-versicolor
+1.4 = 4: Iris-versicolor
+1.4 = 4.1: Iris-versicolor
+1.4 = 4.2: Iris-versicolor
+1.4 = 4.3: Iris-versicolor
+1.4 = 4.4: Iris-versicolor
+1.4 = 4.5
+|  5.1 = 4.3: null
+|  5.1 = 4.4: null
+|  5.1 = 4.5: null
+|  5.1 = 4.6: null
+|  5.1 = 4.7: null
+|  5.1 = 4.8: null
+|  5.1 = 4.9: Iris-virginica
+|  5.1 = 5: null
+|  5.1 = 5.1: null
+|  5.1 = 5.2: null
+|  5.1 = 5.3: null
+|  5.1 = 5.4: Iris-versicolor
+|  5.1 = 5.5: null
+|  5.1 = 5.6: Iris-versicolor
+|  5.1 = 5.7: Iris-versicolor
+|  5.1 = 5.8: null
+|  5.1 = 5.9: null
+|  5.1 = 6: Iris-versicolor
+|  5.1 = 6.1: null
+|  5.1 = 6.2: Iris-versicolor
+|  5.1 = 6.3: null
+|  5.1 = 6.4: Iris-versicolor
+|  5.1 = 6.5: null
+|  5.1 = 6.6: null
+|  5.1 = 6.7: null
+|  5.1 = 6.8: null
+|  5.1 = 6.9: null
+|  5.1 = 7: null
+|  5.1 = 7.1: null
+|  5.1 = 7.2: null
+|  5.1 = 7.3: null
+|  5.1 = 7.4: null
+|  5.1 = 7.6: null
+|  5.1 = 7.7: null
+|  5.1 = 7.9: null
+1.4 = 4.6: Iris-versicolor
+1.4 = 4.7: Iris-versicolor
+1.4 = 4.8
+|  5.1 = 4.3: null
+|  5.1 = 4.4: null
+|  5.1 = 4.5: null
+|  5.1 = 4.6: null
+|  5.1 = 4.7: null
+|  5.1 = 4.8: null
+|  5.1 = 4.9: null
+|  5.1 = 5: null
+|  5.1 = 5.1: null
+|  5.1 = 5.2: null
+|  5.1 = 5.3: null
+|  5.1 = 5.4: null
+|  5.1 = 5.5: null
+|  5.1 = 5.6: null
+|  5.1 = 5.7: null
+|  5.1 = 5.8: null
+|  5.1 = 5.9: Iris-versicolor
+|  5.1 = 6: Iris-virginica
+|  5.1 = 6.1: null
+|  5.1 = 6.2: Iris-virginica
+|  5.1 = 6.3: null
+|  5.1 = 6.4: null
+|  5.1 = 6.5: null
+|  5.1 = 6.6: null
+|  5.1 = 6.7: null
+|  5.1 = 6.8: Iris-versicolor
+|  5.1 = 6.9: null
+|  5.1 = 7: null
+|  5.1 = 7.1: null
+|  5.1 = 7.2: null
+|  5.1 = 7.3: null
+|  5.1 = 7.4: null
+|  5.1 = 7.6: null
+|  5.1 = 7.7: null
+|  5.1 = 7.9: null
+1.4 = 4.9
+|  3.5 = 2: null
+|  3.5 = 2.2: null
+|  3.5 = 2.3: null
+|  3.5 = 2.4: null
+|  3.5 = 2.5: Iris-versicolor
+|  3.5 = 2.6: null
+|  3.5 = 2.7: Iris-virginica
+|  3.5 = 2.8: Iris-virginica
+|  3.5 = 2.9: null
+|  3.5 = 3: Iris-virginica
+|  3.5 = 3.1: Iris-versicolor
+|  3.5 = 3.2: null
+|  3.5 = 3.3: null
+|  3.5 = 3.4: null
+|  3.5 = 3.5: null
+|  3.5 = 3.6: null
+|  3.5 = 3.7: null
+|  3.5 = 3.8: null
+|  3.5 = 3.9: null
+|  3.5 = 4: null
+|  3.5 = 4.1: null
+|  3.5 = 4.2: null
+|  3.5 = 4.4: null
+1.4 = 5
+|  5.1 = 4.3: null
+|  5.1 = 4.4: null
+|  5.1 = 4.5: null
+|  5.1 = 4.6: null
+|  5.1 = 4.7: null
+|  5.1 = 4.8: null
+|  5.1 = 4.9: null
+|  5.1 = 5: null
+|  5.1 = 5.1: null
+|  5.1 = 5.2: null
+|  5.1 = 5.3: null
+|  5.1 = 5.4: null
+|  5.1 = 5.5: null
+|  5.1 = 5.6: null
+|  5.1 = 5.7: Iris-virginica
+|  5.1 = 5.8: null
+|  5.1 = 5.9: null
+|  5.1 = 6: Iris-virginica
+|  5.1 = 6.1: null
+|  5.1 = 6.2: null
+|  5.1 = 6.3: Iris-virginica
+|  5.1 = 6.4: null
+|  5.1 = 6.5: null
+|  5.1 = 6.6: null
+|  5.1 = 6.7: Iris-versicolor
+|  5.1 = 6.8: null
+|  5.1 = 6.9: null
+|  5.1 = 7: null
+|  5.1 = 7.1: null
+|  5.1 = 7.2: null
+|  5.1 = 7.3: null
+|  5.1 = 7.4: null
+|  5.1 = 7.6: null
+|  5.1 = 7.7: null
+|  5.1 = 7.9: null
+1.4 = 5.1
+|  5.1 = 4.3: null
+|  5.1 = 4.4: null
+|  5.1 = 4.5: null
+|  5.1 = 4.6: null
+|  5.1 = 4.7: null
+|  5.1 = 4.8: null
+|  5.1 = 4.9: null
+|  5.1 = 5: null
+|  5.1 = 5.1: null
+|  5.1 = 5.2: null
+|  5.1 = 5.3: null
+|  5.1 = 5.4: null
+|  5.1 = 5.5: null
+|  5.1 = 5.6: null
+|  5.1 = 5.7: null
+|  5.1 = 5.8: Iris-virginica
+|  5.1 = 5.9: Iris-virginica
+|  5.1 = 6: Iris-versicolor
+|  5.1 = 6.1: null
+|  5.1 = 6.2: null
+|  5.1 = 6.3: Iris-virginica
+|  5.1 = 6.4: null
+|  5.1 = 6.5: Iris-virginica
+|  5.1 = 6.6: null
+|  5.1 = 6.7: null
+|  5.1 = 6.8: null
+|  5.1 = 6.9: Iris-virginica
+|  5.1 = 7: null
+|  5.1 = 7.1: null
+|  5.1 = 7.2: null
+|  5.1 = 7.3: null
+|  5.1 = 7.4: null
+|  5.1 = 7.6: null
+|  5.1 = 7.7: null
+|  5.1 = 7.9: null
+1.4 = 5.2: Iris-virginica
+1.4 = 5.3: Iris-virginica
+1.4 = 5.4: Iris-virginica
+1.4 = 5.5: Iris-virginica
+1.4 = 5.6: Iris-virginica
+1.4 = 5.7: Iris-virginica
+1.4 = 5.8: Iris-virginica
+1.4 = 5.9: Iris-virginica
+1.4 = 6: Iris-virginica
+1.4 = 6.1: Iris-virginica
+1.4 = 6.3: Iris-virginica
+1.4 = 6.4: Iris-virginica
+1.4 = 6.6: Iris-virginica
+1.4 = 6.7: Iris-virginica
+1.4 = 6.9: Iris-virginica
+
+Time taken to build model: 0.01 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         109               73.1544 %
+Incorrectly Classified Instances         9                6.0403 %
+Kappa statistic                          0.8843
+Mean absolute error                      0.0508
+Root mean squared error                  0.2255
+Relative absolute error                 14.4369 %
+Root relative squared error             53.7156 %
+UnClassified Instances                  31               20.8054 %
+Total Number of Instances              149     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.000    1.000      1.000    1.000      1.000    0.980     0.973     Iris-setosa
+                 0.872    0.051    0.895      0.872    0.883      0.827    0.820     0.716     Iris-versicolor
+                 0.875    0.058    0.848      0.875    0.862      0.809    0.755     0.623     Iris-virginica
+Weighted Avg.    0.924    0.033    0.924      0.924    0.924      0.891    0.866     0.793     
+
+=== Confusion Matrix ===
+
+  a  b  c   <-- classified as
+ 47  0  0 |  a = Iris-setosa
+  0 34  5 |  b = Iris-versicolor
+  0  4 28 |  c = Iris-virginica
+

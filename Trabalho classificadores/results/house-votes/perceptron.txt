@@ -1,0 +1,226 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a
+Relation:     house-votesV2
+Instances:    435
+Attributes:   16
+              ï»¿ClassName
+              HandicappedInfants
+              WaterProjectCostSharing
+              AdoptionOfTheBudgetResolution
+              physicianFeeFreeze
+              ElSalvadorAid
+              ReligiousGroupsInSchools
+              AidToNicaraguanContras
+              MXmissile
+              Immigration
+              SynfuelsCorporationCutback
+              EducationSpending
+              SuperfundRightToSue
+              Crime
+              DutyFreeExports
+              ExportAdministrationActSouthAfrica
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -8.810178095597584
+    Node 2    -8.822552728394694
+    Node 3    11.917605039526103
+    Node 4    4.64516025033222
+    Node 5    6.780128171286478
+    Node 6    3.6268237205283484
+    Node 7    7.394952216903911
+    Node 8    -5.910894887481192
+    Node 9    5.54419376287403
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    8.810183189489978
+    Node 2    8.822558344267634
+    Node 3    -11.917612858370928
+    Node 4    -4.645163293656452
+    Node 5    -6.780132224892133
+    Node 6    -3.626825148148068
+    Node 7    -7.394956592216185
+    Node 8    5.910898408656927
+    Node 9    -5.544197464165992
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -0.6155836306954932
+    Attrib ï»¿ClassName=democrat    3.674372332074148
+    Attrib HandicappedInfants=y    -2.2963230689870775
+    Attrib WaterProjectCostSharing=n    -8.649567279221255
+    Attrib AdoptionOfTheBudgetResolution=y    -2.5698758129655936
+    Attrib physicianFeeFreeze=n    3.431271839823761
+    Attrib ElSalvadorAid=n    3.702550349828353
+    Attrib ReligiousGroupsInSchools=n    6.173347897684897
+    Attrib AidToNicaraguanContras=y    -1.901850265128214
+    Attrib MXmissile=y    -3.054877877811758
+    Attrib Immigration=y    6.283808222979857
+    Attrib SynfuelsCorporationCutback=n    4.590384420140112
+    Attrib EducationSpending=n    -1.5682484803319146
+    Attrib SuperfundRightToSue=n    2.113506865061176
+    Attrib Crime=n    0.14107404976058252
+    Attrib DutyFreeExports=n    4.819086703812506
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -2.9427180224510856
+    Attrib ï»¿ClassName=democrat    1.0433339462459883
+    Attrib HandicappedInfants=y    -2.6587605745262604
+    Attrib WaterProjectCostSharing=n    -4.331198091634969
+    Attrib AdoptionOfTheBudgetResolution=y    -3.415409864720333
+    Attrib physicianFeeFreeze=n    1.9820072761254393
+    Attrib ElSalvadorAid=n    0.7746460895792018
+    Attrib ReligiousGroupsInSchools=n    5.721723351952618
+    Attrib AidToNicaraguanContras=y    -1.2575122196303126
+    Attrib MXmissile=y    -0.03633467326189002
+    Attrib Immigration=y    3.994972638135256
+    Attrib SynfuelsCorporationCutback=n    0.473987554406174
+    Attrib EducationSpending=n    -4.416659061113827
+    Attrib SuperfundRightToSue=n    1.0830436772329595
+    Attrib Crime=n    -1.0480777850468435
+    Attrib DutyFreeExports=n    -1.0499380396476192
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -1.6578601483648505
+    Attrib ï»¿ClassName=democrat    -0.15713433587919215
+    Attrib HandicappedInfants=y    6.176974300722215
+    Attrib WaterProjectCostSharing=n    -0.7127088056118243
+    Attrib AdoptionOfTheBudgetResolution=y    3.0445598697000924
+    Attrib physicianFeeFreeze=n    -6.328306909335817
+    Attrib ElSalvadorAid=n    5.561307101399948
+    Attrib ReligiousGroupsInSchools=n    4.4529293345645815
+    Attrib AidToNicaraguanContras=y    -2.1559163252047444
+    Attrib MXmissile=y    -1.611629254868077
+    Attrib Immigration=y    -0.8606683969821178
+    Attrib SynfuelsCorporationCutback=n    1.8754457604719847
+    Attrib EducationSpending=n    -0.8214081041343508
+    Attrib SuperfundRightToSue=n    -3.3488722157913857
+    Attrib Crime=n    -0.8033494314225333
+    Attrib DutyFreeExports=n    4.613550063829508
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    3.8924566246036783
+    Attrib ï»¿ClassName=democrat    -2.109050679217743
+    Attrib HandicappedInfants=y    -3.0813877119835005
+    Attrib WaterProjectCostSharing=n    5.130067254106485
+    Attrib AdoptionOfTheBudgetResolution=y    -2.0454418216244736
+    Attrib physicianFeeFreeze=n    1.7207561334620574
+    Attrib ElSalvadorAid=n    -5.90627219423812
+    Attrib ReligiousGroupsInSchools=n    -7.522344419084083
+    Attrib AidToNicaraguanContras=y    0.8949133877650967
+    Attrib MXmissile=y    -8.92405612015441
+    Attrib Immigration=y    6.006839518323604
+    Attrib SynfuelsCorporationCutback=n    0.180737708210035
+    Attrib EducationSpending=n    5.519430107013774
+    Attrib SuperfundRightToSue=n    6.0998270489374065
+    Attrib Crime=n    1.7640421401831254
+    Attrib DutyFreeExports=n    2.378372256880723
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -3.6887881761138543
+    Attrib ï»¿ClassName=democrat    -3.5166330275723063
+    Attrib HandicappedInfants=y    5.308487288362217
+    Attrib WaterProjectCostSharing=n    -2.972066827109471
+    Attrib AdoptionOfTheBudgetResolution=y    -2.8041639170470316
+    Attrib physicianFeeFreeze=n    -1.5764425015947963
+    Attrib ElSalvadorAid=n    -1.272934500246588
+    Attrib ReligiousGroupsInSchools=n    3.591570637241897
+    Attrib AidToNicaraguanContras=y    0.5957766721136053
+    Attrib MXmissile=y    1.3178754201223504
+    Attrib Immigration=y    0.8023399696863904
+    Attrib SynfuelsCorporationCutback=n    2.045019666720962
+    Attrib EducationSpending=n    -3.8028227979721962
+    Attrib SuperfundRightToSue=n    -4.606402501135013
+    Attrib Crime=n    -4.843026433175713
+    Attrib DutyFreeExports=n    -1.4096907368161293
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    -3.6371828466253455
+    Attrib ï»¿ClassName=democrat    -1.3315564726075746
+    Attrib HandicappedInfants=y    3.4061903127373245
+    Attrib WaterProjectCostSharing=n    -3.4388500144970346
+    Attrib AdoptionOfTheBudgetResolution=y    2.6825158677699847
+    Attrib physicianFeeFreeze=n    8.878027044693836
+    Attrib ElSalvadorAid=n    -1.709597136695241
+    Attrib ReligiousGroupsInSchools=n    -2.9639568869476136
+    Attrib AidToNicaraguanContras=y    -7.496672734120585
+    Attrib MXmissile=y    -5.128452809327564
+    Attrib Immigration=y    -3.7870488676423757
+    Attrib SynfuelsCorporationCutback=n    -3.6666370755167823
+    Attrib EducationSpending=n    2.496534273113433
+    Attrib SuperfundRightToSue=n    -4.5228630552831985
+    Attrib Crime=n    -2.605318213752752
+    Attrib DutyFreeExports=n    -1.6545687278285992
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    -3.593434101244398
+    Attrib ï»¿ClassName=democrat    1.477575029214762
+    Attrib HandicappedInfants=y    -2.014410216119778
+    Attrib WaterProjectCostSharing=n    3.01303498301312
+    Attrib AdoptionOfTheBudgetResolution=y    -5.723685818995902
+    Attrib physicianFeeFreeze=n    6.258614536286052
+    Attrib ElSalvadorAid=n    3.6704585228575497
+    Attrib ReligiousGroupsInSchools=n    2.9576404845845152
+    Attrib AidToNicaraguanContras=y    -5.475512630672477
+    Attrib MXmissile=y    -5.857979787657547
+    Attrib Immigration=y    4.016554207432642
+    Attrib SynfuelsCorporationCutback=n    4.872495874584933
+    Attrib EducationSpending=n    -1.570479039564024
+    Attrib SuperfundRightToSue=n    1.0004714412553841
+    Attrib Crime=n    -4.605620457782382
+    Attrib DutyFreeExports=n    0.2426346287055181
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    -5.434328096189809
+    Attrib ï»¿ClassName=democrat    -0.2741202768046089
+    Attrib HandicappedInfants=y    -0.8521811970031531
+    Attrib WaterProjectCostSharing=n    8.49546480960657
+    Attrib AdoptionOfTheBudgetResolution=y    0.167777387185678
+    Attrib physicianFeeFreeze=n    1.9779473949101434
+    Attrib ElSalvadorAid=n    1.4649676972652148
+    Attrib ReligiousGroupsInSchools=n    -1.9884636178930153
+    Attrib AidToNicaraguanContras=y    -4.051666304367547
+    Attrib MXmissile=y    1.8746761357985031
+    Attrib Immigration=y    -4.547465112837697
+    Attrib SynfuelsCorporationCutback=n    2.334275948030664
+    Attrib EducationSpending=n    4.6985376737797955
+    Attrib SuperfundRightToSue=n    1.0561436426547879
+    Attrib Crime=n    -1.6064350308257997
+    Attrib DutyFreeExports=n    5.986254663147083
+Class n
+    Input
+    Node 0
+Class y
+    Input
+    Node 1
+
+
+Time taken to build model: 0.85 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         304               69.8851 %
+Incorrectly Classified Instances       131               30.1149 %
+Kappa statistic                          0.3972
+Mean absolute error                      0.3172
+Root mean squared error                  0.5031
+Relative absolute error                 63.7552 %
+Root relative squared error            100.8691 %
+Total Number of Instances              435     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.691    0.292    0.732      0.691    0.711      0.398    0.741     0.778     n
+                 0.708    0.309    0.665      0.708    0.686      0.398    0.741     0.687     y
+Weighted Avg.    0.699    0.300    0.701      0.699    0.699      0.398    0.741     0.735     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 161  72 |   a = n
+  59 143 |   b = y
